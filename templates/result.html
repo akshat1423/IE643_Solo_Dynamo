@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>Selected Model: {{ model }}</p>
+    <p>Number of Paired Images: {{ paired_images }}</p>
+
+    <h2>Uploaded Unclean Image</h2>
+    <img src="{{ url_for('static', filename=unclean_image) }}" alt="Unclean Image" style="max-width: 500px;">
+    <br><br>
+
+    <h2>Clean Image</h2>
+    <img src="{{ clean_image_url }}" alt="Clean Image" style="max-width: 500px;">
+    <br><br>
+
+    <a href="{{ url_for('index') }}">Go Back</a>
+</body>
+</html>
