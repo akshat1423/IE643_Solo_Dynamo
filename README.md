@@ -144,8 +144,12 @@ You will see a form where you can upload an image, select the number of paired i
 4. **Output**
 The output includes:
 
-A dehazed image displayed in the web interface.
-The calculated PSNR and SSIM values.
+   1. A dehazed image displayed in the web interface.
+   2. The calculated PSNR and SSIM values.
+
+## Code Walkthrough 
+- [Code Walkthrough Video ](https://drive.google.com/file/d/1zqBe_orSMsKyb3Mg4WJuIHOkVsCtgY5-/view?usp=drive_link)
+
 ## Acknowledgements and References
 
 - [J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros, “Unpaired image-to-image translation using cycle-consistent adversarial networks,” 2020](https://arxiv.org/abs/1703.10593).  
